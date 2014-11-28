@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/body_submit"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="false"
+        android:title="@string/submit"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:visible="true">
+    </item>
+</menu>

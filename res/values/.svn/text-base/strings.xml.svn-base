@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GetFit</string>
+    <string name="action_settings">Settings</string>
+    <string name="exercise_main_title">Exercises</string>
+    <string name="title_activity_body_profil">Body Profil</string>
+    <string name="title_activity_stats">My Stats</string>
+    <string name="title_activity_todays_training">Today\'s Training</string>
+    <string name="title_activity_exercises">Exercises</string>
+    <string name="title_activity_scheduler">Workout Schedule</string>
+    <string name="title_activity_my_exercises">Exercise Stats</string>
+    <string name="title_activity_my_stats">Body Stats</string>
+    <string name="start_page_header">Get Fit</string>
+    <string name="title_activity_listadapter_exercises">Exercises</string>
+    <string name="exercisePicDesc">ExercisePics</string>
+    <string name="title_activity_exercise_viewer">Detailed View</string>
+    <string name="sort_alphabethic">Az</string>
+    <string name="sort_muscle">M</string>
+    <string name="sort_userdefined">User</string>
+    <string name="exercise_name">Exercise1</string>
+    <string name="tab_description">Describtion</string>
+    <string name="tab_image">Image</string>
+    <string name="tab_steps">Steps</string>
+    <string name="title_activity_exercise_viewer_describtion">ExerciseViewerDescribtion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_exercise_viewer_image">ExerciseViewerImage</string>
+    <string name="title_activity_exercise_viewer_steps">ExerciseViewerSteps</string>
+    <string name="app_label">Search</string>
+    <string name="search_hint">Search Exercises</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_instructions">Type to search for exercises</string>
+    <string name="no_results">No results&#8230;</string>
+    <string name="steps">Steps</string>
+    <string name="equipment">Equipment:</string>
+    <string name="tips">Tips </string>
+    <string name="add_titel_hint">Exercise Titel:</string>
+    <string name="secundary_muscle">Secondary:</string>
+    <string name="primary_muscle">Primary:</string>
+    <string name="primary_prompt">Choose a primary muscle</string>
+    <string name="secundary_prompt">Choose a secundary muscle</string>
+    <string name="equipment_prompt">Choose the needed equipment</string>
+    <string name="title_activity_addexercise">New Exercise</string>
+    <string name="description">Steps:</string>
+    <string name="add_steps_hint">Add the description of your exercise&#8230;</string>
+    <string name="button_add">Add Exercise</string>
+    <string name="exercise_edit">Edit Exercise</string>
+    <string name="titlechartbodyweight">Body Weight</string>
+    <string name="titlechartbmi">BMI</string>
+    <string name="titlechartweight">Weight</string>
+    <string name="titlechartrepetitions">Repetitions</string>
+    <string name="body_weight">Weight</string>
+    <string name="body_height">Height</string>
+    <string name="body_shoulder">Shoulders</string>
+    <string name="body_waist">Waist</string>
+    <string name="body_hips">Hips</string>
+    <string name="body_chest">Chest</string>
+    <string name="body_biceps">Biceps</string>
+    <string name="body_thigh">Thigh</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_add_scheduler">New Workout Schedule</string>
+    <string name="scheduler_dur">Length:</string>
+    <string name="titlechartsets">Sets</string>
+    <string name="scheduler_title_hint">Enter a name</string>
+    <string name="duration_prompt">Choose the duration</string>
+    <string name="start_page_scheduler">Workout Schedule</string>
+    <string name="start_page_exercises">Exercises</string>
+    <string name="add_string">Add</string>
+    <string name="select_day">Select a day!</string>
+    <string name="todays_training_empty">No Workout Today</string>
+
+    <string-array name="muscle_groups">
+        <item>Abs</item>
+        <item>Biceps</item>
+        <item>Calves</item>
+        <item>Chest</item>
+        <item>Core</item>
+        <item>Deltoids</item>
+        <item>Forearms</item>
+        <item>Glutes</item>
+        <item>Hamstrings</item>
+        <item>Hips</item>
+        <item>Lats</item>
+        <item>Neck</item>
+        <item>Obliques</item>
+        <item>Pectorals</item>
+        <item>Quads</item>
+        <item>Rhomboid</item>
+        <item>Thighs</item>
+        <item>Trapezius</item>
+        <item>Triceps</item>
+    </string-array>
+    <string-array name="muscle_groups_sec">
+        <item>-</item>
+        <item>Abs</item>
+        <item>Biceps</item>
+        <item>Calves</item>
+        <item>Chest</item>
+        <item>Core</item>
+        <item>Deltoids</item>
+        <item>Forearms</item>
+        <item>Glutes</item>
+        <item>Hamstrings</item>
+        <item>Hips</item>
+        <item>Lats</item>
+        <item>Neck</item>
+        <item>Obliques</item>
+        <item>Pectorals</item>
+        <item>Quads</item>
+        <item>Rhomboid</item>
+        <item>Thighs</item>
+        <item>Trapezius</item>
+        <item>Triceps</item>
+    </string-array>
+    <string-array name="equipment">
+        <item>-</item>
+        <item>Barbell</item>
+        <item>Bench Cable Maschine</item>
+        <item>Body Only</item>
+        <item>Cable Maschine</item>
+        <item>Dumbbell</item>
+        <item>Exercise Ball</item>
+        <item>Exercise Bands</item>
+        <item>Free Weight Plate</item>
+        <item>Maschine</item>
+        <item>Stability Ball</item>
+        <item>Smith Maschine</item>
+    </string-array>
+    
+    <string-array name="scheduler_duration">
+        <item>7 days</item>
+        <item>14 days</item>
+        <item>21 days</item>
+    </string-array>
+
+    <string name="text_stats_button">Stats</string>
+    <string name="text_credtits_button">Credits</string>
+    <string name="text_exercise_button">Exercises</string>
+    <string name="text_body_profile_button">My Body</string>
+    <string name="text_todays_exec_button">Current Plan</string>
+    <string name="text_scheduler_button">Scheduler</string>
+    <string name="title_activity_exercise_check_list">ExerciseCheckList</string>
+    <string name="start_todays_training">Start Workout</string>
+    <string name="title_activity_todays_training_viewer">Today\'s Exercises</string>
+    <string name="weight_text_view">Weight:</string>
+    <string name="description_text_view">Repetitions:</string>
+    <string name="sets_text_view">Sets:</string>
+    <string name="finishe_training">Finish Workout</string>
+    <string name="everkinetic">Special thanks to everkinetic.com for providing the exercise images.</string>
+    <string name="names">Sebastian Sattmann\nMatthias Streicher\nPhilipp Wakonigg\nKevin Winter</string>
+    <string name="developerteam">Developer Team</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_starting_page">GetFit</string>
+    
+    <string name="wipe_user_data">Wipe user data!</string>
+    
+    <string name="title_activity_searchable">Search Results</string>
+    <string name="action_search">Search</string>
+    <string name="mo">Mo</string>
+    <string name="tu">Tu</string>
+    <string name="we">We</string>
+    <string name="th">Th</string>
+    <string name="fr">Fr</string>
+    <string name="sa">Sa</string>
+    <string name="su">Su</string>
+
+</resources>

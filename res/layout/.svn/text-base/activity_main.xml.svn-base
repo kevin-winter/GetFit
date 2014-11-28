@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/first_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/start_page_margin"
+        android:paddingTop="@dimen/start_page_margin" >
+
+        <ImageButton
+            android:id="@+id/scheduler_button"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:background="@color/white"
+            android:onClick="mainMenuButtonOnClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/scheduler_button" />
+
+        <ImageButton
+            android:id="@+id/exercise_button"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:background="@color/white"
+            android:onClick="mainMenuButtonOnClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/exercise_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/start_page_margin"
+        android:paddingTop="@dimen/start_page_margin" >
+
+        <ImageButton
+            android:id="@+id/todays_exec_button"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:background="@color/white"
+            android:onClick="mainMenuButtonOnClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/todays_exec_button" />
+
+        <ImageButton
+            android:id="@+id/stats_button"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="30"
+            android:background="@color/white"
+            android:onClick="mainMenuButtonOnClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/stats_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/start_page_margin"
+        android:paddingTop="@dimen/start_page_margin" >
+
+        <ImageButton
+            android:id="@+id/body_profile_button"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:background="@color/white"
+            android:onClick="mainMenuButtonOnClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/body_icon" />
+
+        <ImageButton
+            android:id="@+id/credtits_button"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="30"
+            android:background="@color/white"
+            android:onClick="mainMenuButtonOnClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/credits_button" />
+    </LinearLayout>
+
+</LinearLayout>

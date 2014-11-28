@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="NestedWeights">
+        <ignore path="res/layout-land/activity_main.xml" />
+        <ignore path="res/layout/activity_exercise_add.xml" />
+        <ignore path="res/layout/activity_todays_training_viewer.xml" />
+    </issue>
+</lint>

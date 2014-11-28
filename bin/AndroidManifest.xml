@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.fhjoanneum.ima.project.getfit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/start_page_header"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.MainActivity"
+            android:label="@string/start_page_header" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.BodyProfil"
+            android:icon="@drawable/user_icon_blue"
+            android:label="@string/title_activity_body_profil"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.Exercises"
+            android:icon="@drawable/hantel_icon2"
+            android:label="@string/title_activity_exercises"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.MainActivity" >
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value="at.fhjoanneum.ima.project.getfit.SearchableActivity" />
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.Scheduler"
+            android:icon="@drawable/calender_icon_transparent"
+            android:label="@string/title_activity_scheduler"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.MainActivity" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.TodaysTraining"
+            android:icon="@drawable/todays_exer_icon_transparent"
+            android:label="@string/title_activity_todays_training"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.MainActivity" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.Stats"
+            android:icon="@drawable/stats_icon"
+            android:label="@string/title_activity_stats"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.MainActivity" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.StatsTabBodyGraph"
+            android:icon="@drawable/stats_icon"
+            android:label="@string/title_activity_stats"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.Stats" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="at.fhjoanneum.ima.project.getfit.Stats" />
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.StatsTabExercisesGraph"
+            android:icon="@drawable/stats_icon"
+            android:label="@string/title_activity_stats"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.Stats" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="at.fhjoanneum.ima.project.getfit.Stats" />
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.Listadapter_exercises"
+            android:label="@string/title_activity_listadapter_exercises" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.ExerciseViewer"
+            android:icon="@drawable/hantel_icon2"
+            android:label="@string/title_activity_exercise_viewer"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.Exercises" > 
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.ExerciseViewerDescribtion"
+            android:label="@string/title_activity_exercise_viewer_describtion" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.ExerciseViewerImage"
+            android:label="@string/title_activity_exercise_viewer_image" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.ExerciseViewerSteps"
+            android:label="@string/title_activity_exercise_viewer_steps" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.AddExercise"
+            android:icon="@drawable/hantel_icon2"
+            android:label="@string/title_activity_addexercise"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.Exercises" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.AddScheduler"
+            android:icon="@drawable/calender_icon_transparent"
+            android:label="@string/title_activity_add_scheduler"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.Scheduler" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.ExerciseCheckList"
+            android:label="@string/title_activity_exercise_check_list" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.TodaysTrainingViewer"
+            android:icon="@drawable/todays_exer_icon_transparent"
+            android:label="@string/title_activity_todays_training_viewer"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.TodaysTraining" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.Credits"
+            android:icon="@drawable/credits_icon"
+            android:label="@string/title_activity_credits"
+            android:parentActivityName="at.fhjoanneum.ima.project.getfit.MainActivity" >
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.StartingPage"
+            android:label="@string/title_activity_starting_page" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="at.fhjoanneum.ima.project.getfit.SearchableActivity"
+            android:icon="@drawable/search_icon"
+            android:label="@string/title_activity_searchable" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+    </application>
+
+</manifest>

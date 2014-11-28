@@ -1,0 +1,385 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddScheduler" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/scheduler_title"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:gravity="left|center_vertical"
+            android:hint="@string/scheduler_title_hint"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/scheduler_duration"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/scheduler_dur"
+            android:textColor="@color/icon_color_blue"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/duration_drop_down"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:entries="@array/scheduler_duration"
+            android:gravity="center"
+            android:prompt="@string/duration_prompt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/weekdays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mo" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tu" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/we" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/th" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/fr" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/sa" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/su" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bLine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/day1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day1"
+                android:tag="day1" />
+
+            <ImageButton
+                android:id="@+id/day2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day2"
+                android:tag="day2" />
+
+            <ImageButton
+                android:id="@+id/day3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day3"
+                android:tag="day3" />
+
+            <ImageButton
+                android:id="@+id/day4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day4"
+                android:tag="day4" />
+
+            <ImageButton
+                android:id="@+id/day5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day5"
+                android:tag="day5" />
+
+            <ImageButton
+                android:id="@+id/day6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day6"
+                android:tag="day6" />
+
+            <ImageButton
+                android:id="@+id/day7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day7"
+                android:tag="day7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/day8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day8"
+                android:tag="day8" />
+
+            <ImageButton
+                android:id="@+id/day9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day9"
+                android:tag="day9" />
+
+            <ImageButton
+                android:id="@+id/day10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day10"
+                android:tag="day10" />
+
+            <ImageButton
+                android:id="@+id/day11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day11"
+                android:tag="day11" />
+
+            <ImageButton
+                android:id="@+id/day12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day12"
+                android:tag="day12" />
+
+            <ImageButton
+                android:id="@+id/day13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day13"
+                android:tag="day13" />
+
+            <ImageButton
+                android:id="@+id/day14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day14"
+                android:tag="day14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bLine3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/day15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day15"
+                android:tag="day15" />
+
+            <ImageButton
+                android:id="@+id/day16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day16"
+                android:tag="day16" />
+
+            <ImageButton
+                android:id="@+id/day17"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day17"
+                android:tag="day17" />
+
+            <ImageButton
+                android:id="@+id/day18"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day18"
+                android:tag="day18" />
+
+            <ImageButton
+                android:id="@+id/day19"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day19"
+                android:tag="day19" />
+
+            <ImageButton
+                android:id="@+id/day20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day20"
+                android:tag="day20" />
+
+            <ImageButton
+                android:id="@+id/day21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_highlight"
+                android:onClick="manageDayClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/day21"
+                android:tag="day21" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/showDay"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="@string/select_day"
+            android:textColor="@color/icon_color_blue"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/list"
+            android:name="at.fhjoanneum.ima.project.getfit.ExerciseCheckList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="myFragment" />
+    </LinearLayout>
+
+</LinearLayout>

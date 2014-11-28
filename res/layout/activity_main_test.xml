@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="25dp" >
+
+        <Button
+            android:id="@+id/scheduler_button"
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/scheduler_button"
+            android:onClick="mainMenuButtonOnClick" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_scheduler_button"
+            android:textColor="@color/icon_color_blue"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/todays_exec_button"
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/todays_exec_button"
+            android:onClick="mainMenuButtonOnClick" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_todays_exec_button"
+            android:textColor="@color/icon_color_blue"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/body_profile_button"
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/body_icon"
+            android:onClick="mainMenuButtonOnClick" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_body_profile_button"
+            android:textColor="@color/icon_color_blue"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="25dp" >
+
+        <Button
+            android:id="@+id/exercise_button"
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/exercise_button"
+            android:onClick="mainMenuButtonOnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_exercise_button"
+            android:textColor="@color/icon_color_blue"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/stats_button"
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/stats_button"
+            android:onClick="mainMenuButtonOnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_stats_button"
+            android:textColor="@color/icon_color_blue"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/credtits_button"
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/credits_button"
+            android:onClick="mainMenuButtonOnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_credtits_button"
+            android:textColor="@color/icon_color_blue"
+            android:textSize="16sp" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

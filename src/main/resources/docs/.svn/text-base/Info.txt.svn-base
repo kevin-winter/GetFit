@@ -1,0 +1,13 @@
+Team Members:
+-Sattmann Sebastian
+-Streicher Matthias
+-Wakonigg Philipp
+-Winter Kevin
+
+Brainstorming und ausdenken der einzelnen Klassen und Layouts am Papier: alle zusammen
+Klassendefinition und erstellen der "userClasses": am Papier alle zusammen, implementiert von Philipp Wakonigg und Sebastian Sattmann
+
+MyDataBaseHelper, Datenaufbereitung, Exercises (ListAdapter, ListView, Scheduler), sowie die Table Classes: Philipp Wakonig
+Icons, SearchableActivity(ListView, Search Query), activity_layout files sowie activity_menu files: Matthias Streicher
+Logo, Datenaufbereitung, Scheduler, Add Scheduler sowie Body Profil und Credits: Kevin Winter
+Stats (Stats_Tables, sowie Body/Exercise Graphs), Debugging, Errorhandling: Sebastian Sattmann 

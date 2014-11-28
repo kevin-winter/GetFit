@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_scheduler"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        android:icon="@drawable/plus_add"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/exercise_main_title"
+        android:visible="true">
+    </item>
+
+</menu>

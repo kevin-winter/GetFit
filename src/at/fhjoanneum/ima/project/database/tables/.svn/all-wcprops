@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/IMA12/!svn/ver/4192/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables
+END
+ExerciseSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/IMA12/!svn/ver/3980/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables/ExerciseSchedule.java
+END
+StatsBodyTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/IMA12/!svn/ver/4129/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables/StatsBodyTable.java
+END
+HistoryTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/IMA12/!svn/ver/3980/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables/HistoryTable.java
+END
+StatsExerciseMeasurementTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/IMA12/!svn/ver/4129/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables/StatsExerciseMeasurementTable.java
+END
+ExerciseTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/IMA12/!svn/ver/3751/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables/ExerciseTable.java
+END
+StatsBodyMeasurementTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/IMA12/!svn/ver/4129/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables/StatsBodyMeasurementTable.java
+END
+SchedulesTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/IMA12/!svn/ver/4192/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables/SchedulesTable.java
+END
+StatsExercisesTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/IMA12/!svn/ver/4129/SWENGB/Projects/GetFit/trunk/GetFit/src/at/fhjoanneum/ima/project/database/tables/StatsExercisesTable.java
+END

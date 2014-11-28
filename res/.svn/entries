@@ -1,0 +1,73 @@
+10
+
+dir
+4200
+https://alambra.fh-joanneum.at/svn/IMA12/SWENGB/Projects/GetFit/trunk/GetFit/res
+https://alambra.fh-joanneum.at/svn/IMA12
+
+
+
+2014-01-26T14:00:19.799990Z
+3967
+WintKe
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+543d780d-3e01-0010-9f48-57d5175d2db3
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+layout-land
+dir
+
+menu
+dir
+
+values
+dir
+
+values-sw600dp
+dir
+
+values-sw720dp-land
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+
+xml
+dir
+
